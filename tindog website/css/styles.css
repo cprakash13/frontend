@@ -1,0 +1,177 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2.7rem;
+  line-height: 1.5;
+  font-family: "Montserrat";
+}
+
+h3 {
+  margin: 0.8rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+}
+
+/* nav section */
+
+.navbar {
+  padding: 0 0 3rem;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+
+/* title section */
+
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 5rem;
+  color: #FFF;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.btn-title {
+  margin: 2rem 1.3rem 0.7rem 0;
+  text-decoration: none;
+  color: #FFF;
+}
+
+/* title image */
+
+.mobile-img {
+  position: absolute;
+  width: 18rem;
+  transform: translate(5rem,1.4rem) rotateZ(23deg);
+}
+
+/* features section */
+
+#features {
+  text-align: center;
+  position: relative;
+  padding: 11% 15%;
+  line-height: 1.5;
+  background-color: #FFF;
+  z-index: 50;
+}
+
+.ft-box p{
+  padding: 0 14%;
+  color: #8F8F8F;
+}
+
+.feature-icon {
+  color: #EF8172;
+}
+
+.feature-icon:hover {
+  color: #FF4C68;
+}
+
+/* testimonials-section */
+
+#testimonials {
+  background-color: #FF4C68;
+  color: #FFF;
+  text-align: center;
+}
+
+.carousel-item{
+  padding: 7% 16%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2rem 1rem;
+}
+
+/* press section */
+
+#press {
+  background-color: #FF4C68;
+  padding: 0 0 4rem 0;
+  text-align: center;
+}
+
+.press-image {
+  margin: 0 2%;
+  width: 15%;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+/* call to action */
+
+#cta {
+  background-color: #FF4C68;
+  text-align: center;
+  padding: 4.5% 15% 8%;
+}
+
+#cta h3{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #FFF;
+}
+
+/* footer section */
+
+#footer {
+  padding: 7% 0 3%;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 0 0.8rem 1rem;
+  color: black;
+}
+
+/* title responsive */
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .mobile-img {
+    position: static;
+    transform: rotate(0);
+    padding-top: 3rem;
+  }
+  .container-fluid {
+    padding-bottom: 0;
+  }
+}

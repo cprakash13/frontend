@@ -1,0 +1,155 @@
+/***************TAG SELECTORS***************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E; 
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: 500;
+  margin: 80px auto 40px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin-top: 50px;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted none none;
+  border-width: 6px;
+  border-color: #787A91;
+}
+
+/***************CLASS SELECTORS***************/
+.topcontainer {
+  background-color: #E3FDFD;
+  padding-top: 110px;
+  position: relative;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 335px;
+  left: 250px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile {
+  width: 50%;
+  margin: 70px auto;
+}
+
+.profile-img {
+  width: 27%;
+}
+
+.bio {
+  width: 75%;
+  margin: auto;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.guitar-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-det {
+  width: 45%;
+  margin: 40px auto 30px;
+}
+
+.BUTTON_PFC {
+  width: 175px;
+  background: #1ca5a5;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 0;
+  border: solid #1ca5a5 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 50px auto 20px;
+}
+
+.BUTTON_PFC:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 40px;
+  line-height: 2.7;
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+  margin-top: 50px;
+  background-color: #66BFBF;
+  padding: 50px 0 30px;
+}
+
+.trademark {
+  margin-top: 30px;
+  color: #FFFFFF;
+}
+
+.greet {
+  margin: 50px auto;
+}
+
+/***************ID SELECTORS***************/
